@@ -67,28 +67,3 @@ for item in range(runs):
     worksheet.write_column("B1", Lia_Data)
     workbook.close()
     t_const += 1
-
-
-
-# fig, [plt1, plt2] = plt.subplots(nrows=2, ncols=1)
-# plt1.grid()
-# plt2.grid()
-# plt1.set_xlabel('number of samples', fontsize=15)
-# plt1.set_ylabel('Voltage (V)', fontsize=15)
-# plt2.set_xlabel('Freq(Hz)', fontsize=15)
-# plt2.set_ylabel('Magnitude', fontsize=15)
-# plt1.plot(xt[0:1000], Lia_Data[0:1000])
-# plt2.plot(fplot, fft_cal_mag_plot)
-# Exc = "Excitation_Freq =" + str(excite_freq)
-# plt.figtext(0.9, 0.2,
-#             Exc, horizontalalignment ="center",
-#             wrap = True, fontsize = 10,
-#             bbox ={'facecolor':'grey',
-#                    'alpha':0.3, 'pad':5})
-# annot_max(fplot, fft_cal_mag_plot)
-# excite_freq += freq_step
-# # plt.show()
-# plt.savefig(str(excite_freq) + '_FFT.png')
-# plt.show(block=False)
-# plt.pause(1)
-# plt.close()
